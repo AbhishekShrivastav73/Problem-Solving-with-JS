@@ -182,10 +182,151 @@ function calculateFactorial(number) {
 
 // Write a function that takes an array of numbers and returns the largest number.
 {
-    let arr = [12,45,35,78,45,94];
-    let nums;
-    let largest =(elem)=>{
+    let arr = [12,45,101,35,10,78,45,94];
+    
+    let largestNum = (arrays)=>{
+        let largest = arrays[0];
+
+        for(let i =1; i<arrays.length; i++){
+            if(arrays[i]>largest){
+                largest = arrays[i]
+            }
+
+        }
+        return largest;
+    }
+    
+   
+     let ans = largestNum(arr)
+    console.log(ans);
+}
+
+//Write a function to reverse a given string.
+
+{
+
+    let str = 'Hello World!!';
+
+    let reverseStr = function(strings){
+        let rev = strings.split('').reverse().join('');
+        return rev;
+    }
+
+    let reversed =  reverseStr(str)
+    console.log(reversed);
+}
+
+// Write a function that takes a string and returns the count of vowels in it.
+{
+    let str = "aeiou";
+
+    (function(strs){
+        let vowels = ['a','e','i','o','u','A','E','I','O','U'];
+        let vowelCount = 0;
+
+        for(let char of strs){
+            if(vowels.includes(char)){//isme check kiya ki kya strings ke character array me aarhe hai ki nahi
+                vowelCount++;//true hogi condition to increment operator chal jaega
+            }
+        }
+        console.log(vowelCount);
+    })(str)
+}
+
+// Write a function that determines whether a given number is a prime number.
+{
+
+    let num = 10;
+
+    function checkPrime(a){
         
+        for(let i = 2; i<a;i++){
+            if(a==1){
+                return "This is a Prime Number"
+            }else if(a%i==0){
+                return 'This is Not a Prime Number'
+              
+            }else{
+                return 'this is a Prime Number'
+            }
+        }
     }
+
+    let prime = checkPrime(num)
+    console.log(prime);
+
+}
+
+// Write a function that checks if a given year is a leap year.
+{
+    let year = 2025;
+
+    function checkLeapYear(yrs){
+        if(yrs % 4== 0){
+            console.log(`${yrs} is a Leap Year`);
+        }else{
+            console.log(`${yrs} is  not a Leap Year`);
+        }
     }
+
+    checkLeapYear(year)
+    
+}
+
+// Write a function that takes an array and removes duplicate elements. 
+
+{
+
+    let arr = [1,2,13,3,4,1,2];
+
+    function removeDupli(arry){
+        let sets = new Set(arr); // St
+        const uniqueArray = Array.from(sets)
+        console.log(uniqueArray);
+    }
+
+    removeDupli(arr)
+}
+
+// Write a function that takes a sentence and capitalizes the first letter of each word.
+{
+    function capitalizeFirstLetter(sentence) {
+        // Split the sentence into an array of words
+        const words = sentence.split(' ');
+      
+        // Iterate through each word in the array
+        for (let i = 0; i < words.length; i++) {
+          // Capitalize the first letter of each word
+          words[i] = words[i][0].toUpperCase() + words[i].slice(1);
+        }
+      
+        // Join the capitalized words back into a sentence
+        const capitalizedSentence = words.join(' ');
+      
+        return capitalizedSentence;
+      }
+      
+      const sentence = "this is a sample sentence";
+      const result = capitalizeFirstLetter(sentence);
+      console.log(result); // Output: "This Is A Sample Sentence"
+      
+
+}
+
+// Write a function that calculates the sum of squares of numbers from 1 to a given number.
+
+{
+    let num =25;
+    function sumOfSquare(int){
+        let sum = 0;
+        for(let i=1;i<=int;i++){
+            let square = i**2;
+            // console.log(square);
+
+            sum += square; 
+        }
+        console.log(sum);
+    }
+
+    sumOfSquare(num);
 }
