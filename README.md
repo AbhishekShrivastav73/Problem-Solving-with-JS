@@ -4,6 +4,19 @@ This repository contains a set of beginner-level problem-solving questions for J
 
 # Basic questions 
 
+## BASIC INPUT OUTPUT QUESTIONS
+
+1) Make a variable user and initialize a value "Ram" and print it on console
+2) Make two variables and print their sum, mul, div, sub
+3) Write a JavaScript program to find the area of a triangle where three sides are 5, 6, 7. 
+4) Write a JavaScript program to compute the sum of the two given integers. If the two values are the same, then print triple their sum.
+5) Accept a number from a user and print it on console
+6) Ask a user his/her name and say hello (eg. "Hello Sarthak")
+7) Accept two integers from user and print the sum
+   Ex - The sum of 45 & 12 = 57
+8) Accept the User's name, age and print in following manner
+   Ex - Hello Shery, you are 12 years old.
+
 ## Problems List:
 
 1. **Hello, World!**
