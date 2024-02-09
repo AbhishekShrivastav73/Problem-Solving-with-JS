@@ -4,7 +4,7 @@ This repository contains a set of beginner-level problem-solving questions for J
 
 # Basic questions 
 
-## BASIC INPUT OUTPUT QUESTIONS
+## BASIC INPUT OUTPUT QUESTIONS -- (Starter.Js file)
 
 1) Make a variable user and initialize a value "Ram" and print it on console
 2) Make two variables and print their sum, mul, div, sub
@@ -17,7 +17,7 @@ This repository contains a set of beginner-level problem-solving questions for J
 8) Accept the User's name, age and print in following manner
    Ex - Hello Shery, you are 12 years old.
 
-## Problems List:
+## Problems List: (Basic.Js File)
 
 1. **Hello, World!**
    - Write a simple JavaScript program that outputs "Hello, World!" to the console.
@@ -64,7 +64,7 @@ This repository contains a set of beginner-level problem-solving questions for J
 15. **Sum of Squares**
     - Write a function that calculates the sum of squares of numbers from 1 to a given number.
    
-# Basic Question - Part 2
+# Basic Question - Part 2 (Basic2.Js File)
 
 ## Problem List:         
 
