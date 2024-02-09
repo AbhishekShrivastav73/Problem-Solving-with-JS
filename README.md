@@ -50,6 +50,14 @@ This repository contains a set of beginner-level problem-solving questions for J
 
 15. **Sum of Squares**
     - Write a function that calculates the sum of squares of numbers from 1 to a given number.
+   
+# Basic Question - Part 2
+
+## Problem List:         
+
+   1. By use of foreach print hello in front of each elements of array.
+   2. Print all element of the array, but leave all those element who is greater than three.
+   3. Find the Sum of array numerical element, skip if element is string 
 
 ## How to Use:
 
