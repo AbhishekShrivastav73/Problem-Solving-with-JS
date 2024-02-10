@@ -24,8 +24,8 @@ This repository contains a set of beginner-level problem-solving questions for J
   Ex - Good Morning Sir (on the basis of gender)
 
  3) Extend the previous program and handle the wrong inputs.
-       Print Good Morning sir for input m or M & Good morning Mam for input F or f 
-       else print Wrong Input
+       - Print Good Morning sir for input m or M & Good morning Mam for input F or f 
+       - else print Wrong Input
 4) Accept an integer and check whether it is an even number or odd.
 5) Accept name and age from the user. Check if the user is a valid voter or not.
     Vaid - Hello Shery, You are a valid voter.
