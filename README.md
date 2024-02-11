@@ -47,6 +47,26 @@ This repository contains a set of beginner-level problem-solving questions for J
  	   - C if marks is greater than 45 and less than or equal to 60.
  	   - D if marks is greater than or equal to 33 and less than or equal to 45.
  	   - F if marks is less than 33.
+   
+# ITERATIVE STATEMENTS
+1) Accept an integer and Print hello world n times
+2) Print natural number up to n.
+3) Reverse for loop. Print n to 1.
+4) Take a number as input and print its table
+5) Sum up to n terms.
+6) Write a JavaScript program that iterates integers from 1 to 100. But for multiples of three print "Sheryians" instead of the number and for multiples of five print "coding". For numbers multiples of both three and five print "Sheryians coding school".
+6) Factorial of a number
+8) Print the sum of all even & odd numbers in a range seperately
+9) Print all the numbers which are either divisible by 3 or 5 in a range 
+10) Print all the factors of a number.
+11) Print the sum of all factors of a number, 50 - 1 + 2 + 5 + 10 + 25 = 93
+12)  Accept a number and check if it a perfect number or not.
+     - A number whose sum of factors(excluding number itself)  = Number 
+     - Ex -  6 = 1, 2, 3 = 6
+13) ask a user an string and a number and addon the string n number of times (if number is 3 and string is "hey" print "heyheyhey")
+14) Seprate each digit of a number and print it on the new line
+15) Check if the number is Prime or not.
+
 ## Problems List: (Basic.Js File)
 
 1. **Hello, World!**
