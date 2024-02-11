@@ -48,7 +48,7 @@ This repository contains a set of beginner-level problem-solving questions for J
  	   - D if marks is greater than or equal to 33 and less than or equal to 45.
  	   - F if marks is less than 33.
    
-# ITERATIVE STATEMENTS
+# ITERATIVE STATEMENTS (iterativeStatement.JS File)
 1) Accept an integer and Print hello world n times
 2) Print natural number up to n.
 3) Reverse for loop. Print n to 1.
