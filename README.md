@@ -67,6 +67,13 @@ This repository contains a set of beginner-level problem-solving questions for J
 14) Seprate each digit of a number and print it on the new line
 15) Check if the number is Prime or not.
 
+## Functions (Function.JS file):
+
+1) Create a function named greet that takes a name as an argument and prints a greeting message to the console.
+2)  Write a function called square that takes a number as a parameter and returns its square.
+3) Create a function named isEven that takes an integer as an argument and returns true if it's even and false if it's odd.
+4) Create a function named countDown that takes a positive integer as a parameter and prints a countdown from that number to 1.
+
 ## Problems List: (Basic.Js File)
 
 1. **Hello, World!**
