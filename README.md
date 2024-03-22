@@ -127,7 +127,62 @@ This repository contains a set of beginner-level problem-solving questions for J
 
    1. By use of foreach print hello in front of each elements of array.
    2. Print all element of the array, but leave all those element who is greater than three.
-   3. Find the Sum of array numerical element, skip if element is string 
+   3. Find the Sum of array numerical element, skip if element is string
+
+# Basic Question - Part 3 (Basic3.js File)
+
+## Questions : 
+#### Question 1:
+What are the different data types in JavaScript? Provide examples for each.
+```
+Number: Represents numeric values. For example: 5, 3.14, -10.
+
+String: Represents textual data. For example: "Hello", 'JavaScript', "123".
+
+Boolean: Represents logical values indicating true or false. For example: true, false.
+
+Null: Represents the intentional absence of any object value. Example: null.
+
+Undefined: Represents a variable that has been declared but has not yet been assigned a value. Example: undefined.
+
+Object: Represents a collection of key-value pairs. For example: {name: "John", age: 30}.
+
+Array: Represents a list-like object. For example: [1, 2, 3, 4].
+
+Function: Represents a reusable block of code that can be called to perform a specific task. Example: function add(a, b) { return a + b; }.
+```
+
+#### Question 2:
+Explain the difference between == and === operators in JavaScript. Provide examples to illustrate their usage.
+```
+== (Equality Operator):
+
+It checks if two values are equal, but it can convert their types to match if they're different.
+Example: If you compare 5 with "5" using ==, it will say they're equal because it turns "5" into the number 5.
+=== (Strict Equality Operator):
+
+It also checks if two values are equal, but it won't change their types.
+Example: If you compare 5 with "5" using ===, it will say they're not equal because one is a number and the other is a string.
+In simple terms, === is like saying "exactly equal" and == is like saying "kind of equal because I can make them look the same if needed". It's generally safer to use === because it doesn't do any type conversion, which can sometimes lead to unexpected results.
+```
+
+#### Question 3:
+Write a JavaScript function that takes an array of numbers as input and returns the sum of all the numbers in the array.
+
+#### Question 4:
+Write a JavaScript function called reverseString that takes a string as input and returns the reversed version of that string. For example, if the input is "hello", the output should be "olleh".
+
+#### Question 5:
+Write a JavaScript function called isPalindrome that takes a string as input and returns true if the string is a palindrome (reads the same backward as forward), and false otherwise. Ignore non-alphanumeric characters and case sensitivity. For example, "A man, a plan, a canal, Panama" should return true.
+
+#### Question 6:
+Write a JavaScript function called countVowels that takes a string as input and returns the number of vowels (a, e, i, o, u) present in that string. Ignore case sensitivity. For example, if the input is "Hello", the output should be 2, because there are two vowels (e and o) in the string.
+
+
+
+
+
+
 
 ## How to Use:
 
