@@ -81,3 +81,49 @@ reverseString(str);
 
     countVowels(strs2);
 }
+
+
+
+// Question 7:
+// Write a JavaScript function called capitalizeFirstLetter that takes a string as input and returns the same string with the first letter capitalized. For example, if the input is "javascript", the output should be "Javascript".
+
+{
+    let txt = 'javascript';
+
+    function capitalizeFirstLetter(a){
+        console.log( a.charAt(0).toUpperCase() + a.slice(1));
+    }
+    capitalizeFirstLetter(txt)
+}
+// Question 8:
+// Write a JavaScript function called findMax that takes an array of numbers as input and returns the largest number in the array. If the array is empty, the function should return null.
+
+
+{
+    function findMax(numbers) {
+        // Check if the array is empty
+        if (numbers.length === 0) {
+            return null; // Return null if array is empty
+        } else {
+            // Use the Math.max() function to find the largest number in the array
+            return Math.max(...numbers);
+        }
+    }
+    
+    // Example usage:
+    const numbers = [5, 3, 9, 2, 10];
+    console.log(findMax(numbers)); // Output: 10
+    
+}
+
+{
+    let dupli = [1,2,3,45,1,23,2,3];
+    function removeDuplicates(a){
+        let newArr = new Set(a)
+        let unique = Array.from(newArr)
+        console.log(newArr);
+        console.log(unique);
+    }
+
+    removeDuplicates(dupli);
+}
