@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="https://img.shields.io/github/stars/AbhishekShrivastav73/Problem-Solving-with-JS?style=flat-square" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/AbhishekShrivastav73/Problem-Solving-with-JS?style=flat-square" alt="GitHub forks">
+  <img src="https://img.shields.io/github/issues/AbhishekShrivastav73/Problem-Solving-with-JS?style=flat-square" alt="GitHub issues">
+</p>
+
+
 # JavaScript Problem Solving
 
 This repository contains a set of beginner-level problem-solving questions for JavaScript. These exercises cover a range of fundamental programming concepts and are designed to help beginners practice their JavaScript skills. Feel free to use this resource for self-study, practice, or to contribute your solutions.
